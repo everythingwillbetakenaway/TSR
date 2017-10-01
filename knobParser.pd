@@ -1,0 +1,15 @@
+#N canvas 1020 205 840 1024 10;
+#X obj 67 103 div 1;
+#X obj 67 132 change 44;
+#X obj 67 68 * 2;
+#X obj 64 26 inlet;
+#X obj 71 278 send knb;
+#X obj 68 222 pack \$1 f;
+#X obj 66 178 t b f;
+#X connect 0 0 1 0;
+#X connect 1 0 6 0;
+#X connect 2 0 0 0;
+#X connect 3 0 2 0;
+#X connect 5 0 4 0;
+#X connect 6 0 5 0;
+#X connect 6 1 5 1;
